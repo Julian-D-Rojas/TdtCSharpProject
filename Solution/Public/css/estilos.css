@@ -1,0 +1,109 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #C5CAE9
+}
+
+IMG.displayed {
+    float: left;
+    width: 180px;
+    height: 180px
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #0c3c60;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header.logo {
+    float: left;
+    line-height: 200px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-family: Arial;
+    color: #fff;
+    line-height: 50px;
+    text-align: left;
+}
+
+header nav {
+    float: right;
+    line-height: normal;
+}
+
+    header nav a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        line-height: normal;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+        header nav a:hover {
+            background: #2196F3;
+            border-radius: 50px;
+        }
+
+.header2 {
+    position: fixed;
+    line-height: 60px;
+}
+
+    .header2 nav {
+        line-height: 20px;
+    }
+
+        .header2 nav a {
+            font-size: 15px;
+        }
+
+
+    .header2 h1 {
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+IMG.displayed2 {
+    float: left;
+    width: 100px;
+    height: 100px
+}
+
+@media screen and (max-width:970px) {
+    header.logo,
+    header, nav {
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .header2 {
+        height: auto;
+    }
+
+        .header2 .logo,
+        .header2 nav {
+            line-height: 50px;
+        }
+}
